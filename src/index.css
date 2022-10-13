@@ -1,0 +1,953 @@
+body {
+  padding:none;
+  
+  overflow-x: hidden;
+  margin: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ap{
+    align-content: center;
+    height:399px;
+    width:300px;
+    border-bottom-left-radius:6em;
+    border-top-right-radius:7em;
+    margin:58px 2px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.im{
+  font-size: 21px;
+  text-align: center;
+ 
+ 
+  
+}
+.im1{
+  background-image: linear-gradient(
+    45deg,
+    #CA4246 16.666%, 
+    #E16541 16.666%, 
+    #E16541 33.333%, 
+    #F18F43 33.333%, 
+    #F18F43 50%, 
+    #8B9862 50%, 
+    #8B9862 66.666%, 
+    #476098 66.666%, 
+    #476098 83.333%, 
+    #A7489B 83.333%);
+    
+     background-clip: text;
+     
+    -webkit-text-fill-color: transparent;
+    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+   
+}
+.im1:hover{
+   animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+      background-size: 650%;
+  }
+  40% {
+      background-size: 650%;
+  }
+  100% {
+      background-size: 100%;
+  }
+}
+
+/* Move the background and make it larger. */
+/* Animation shown when hovering over the text. */
+@keyframes rainbow-text-simple-animation {
+  0% {
+      background-size: 100%;
+  }
+  80% {
+      background-size: 650%;
+  }
+  100% {
+      background-size: 650%;
+  }
+}
+.in{
+  padding-top: 1.5em;
+  font-size: 21px;
+  background-color: white;
+}
+.gg{
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 10px;
+	color:rgb(181, 25, 25);
+  overflow: hidden;
+  animation: 1s ease infinite reverse glow;
+}
+
+
+@keyframes glow {
+	0% {
+		text-shadow: 0 0;
+	}
+	75% {
+		text-shadow: 0 0 16px;
+		filter: brightness(500%);
+	}
+}
+.gg2{
+  text-align: center;
+  font-size: 25px;
+  background:-webkit-linear-gradient(45deg,#68E4C8 ,  #5a5050 );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.txt{
+  width: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-top:2em;
+  line-height: 1.7em;
+  
+}
+.txt:hover{
+  color: green;
+}
+
+
+.redd{
+  color: blue;
+}
+.blu{
+  color: red;
+}
+.vl {
+  border-left: 6px solid green;
+  
+}
+.q{
+  align-self: center;
+  display: grid;
+  padding: none;
+  margin: 0%;
+}
+.az{
+  font-family: 'Source Serif Pro', serif;
+  margin-top: 4em;
+  font-weight: bold;
+}
+.gga{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 10px;
+  background: linear-gradient(to right, #30CFD0 0%, #4459c2 100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+  
+  
+  
+  
+}
+.gg1{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  background: linear-gradient(to right, #0b0b0b 0%, #7b7f8f 100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.op{
+  border-radius: 9em;
+  width: 14em;
+  height: 14em;
+}
+.cc{
+  margin: 1em .2em 0em 0em;
+  width: 40px;
+    height: 40px;
+    padding: 0px 2px 8px 2px ;
+    border: 1px solid transparent;
+    border-radius: 34px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    line-height: 34px;
+    text-decoration: solid;
+    background-color:rgb(255, 255, 8);
+    transition: background-color 0.2s ease-out 0s, border-color 0.2s ease-out 0s, color 0.2s ease-out 0s;
+}
+.nam
+{
+  /* Fallback: Set a background color. */
+  
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    #0a4234 50%,
+    #f2cfed 50%
+  );
+  
+  /* Set the background size and repeat properties. */
+  background-size: 870%;
+  background-repeat: repeat;
+  background-position: top right;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+  
+  animation: button-animation 0.65s 0.15s ease-out forwards;
+}
+.nam:hover, .nam:hover span{
+  animation: button-animation-rev 0.65s ease-out forwards;
+}
+
+.nam:hover {
+
+transition: 0.7s;
+}
+
+@keyframes button-animation {
+  0% {
+    background-position: top right;
+  }
+  100% {
+    background-position: top left;
+  }
+  }
+  
+  @keyframes button-animation-rev {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+  }
+  .e1{
+    background-color: red;
+  
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .ad{
+     width:5rem;
+      height:5em;
+      border-radius:9em;
+      background-color:white;
+      margin-top: 2.6em;
+  }
+  .ll{
+      color:white;
+      font-size:11px;
+      margin-bottom: 1em auto 2em auto;
+  }
+  .ll:hover{
+    color: #CA4246;
+  }
+  .lll{
+    display:inline;
+    width:100%;
+    float: right;
+
+  }
+  .l3{
+    display:inline;
+    text-align: right;
+    width: 50%;
+    float: right;
+    font-size: 12px;
+    color: rgb(229, 229, 229);
+  }
+  .l2{
+    font-size: 10px;
+    color: white;
+    letter-spacing: 1.8em;
+    word-spacing: 1em;
+  }
+  .pk{
+    border-radius: .3em;
+    width: 100%;
+    margin: 0%;
+    color:white;
+    
+  }
+  .nm{
+    width: 100%;
+    padding: auto 2.5em  auto 2.8em ;
+    box-shadow: 10px 10px 8px  8px black;
+    margin:4rem 0em 3em 0em;
+   
+  }
+  .vertical {
+    border: 0;
+    margin: 3.6em 1em 3.6em 2em ;
+    border-left: 3px solid rgb(102, 102, 109);
+    height: 400px;
+    
+  }
+  .ww{
+    margin-top: 2em;
+    padding: 2em;
+    border-right: 5px solid red;
+  }
+  .l22{
+    background-image: url("../public/pic1\ \(1\).jpg");
+  }
+.back{
+ 
+  font-size: 29px;
+  border: none;
+  
+  
+  position: fixed;
+  margin: 90vh 0em 0em 94vw ;
+ 
+}
+.back:hover{
+ 
+  font-size:37px ;
+}
+@media screen {
+  
+}
+@media screen and (max-width: 1100px) {
+  .vertical {
+    display: none;
+  }
+}
+@media screen {
+  
+}
+
+.li{
+  margin-right: 2em;
+}
+.na{
+  position: relative;
+  margin-top: 33em;
+  
+  color: red;
+}
+.sp:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+:active, :hover, :focus {
+  outline: 0!important;
+  outline-offset: 0;
+}
+::before,
+::after {
+  position: absolute;
+  content: "";
+}
+
+.btn-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1px;
+  margin: 0px auto 5px;
+}
+.btn1 {
+  font-family: 'Space Grotesk', sans-serif;
+  position: relative;
+  display: inline-block;
+  width: 9px; height: 70px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0px;
+  min-width: 110px;
+  height: 77px;
+  size: 19px;
+ 
+}
+  .btn1 span {   
+    font-family: 'Space Grotesk', sans-serif;      
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0; left: 0;
+    width: 110px;
+    padding: 9px 0px;
+    transition: 0.3s;
+    
+    height: 47px;
+    
+  }
+  
+
+/*--- btn-1 ---*/
+
+
+
+
+
+
+.btn-2::before {
+  background-color: rgb(28, 31, 30);
+  transition: 0.3s ease-out;
+  
+  
+}
+.btn-2 span {
+  color: rgb(28, 31, 30);
+  
+  
+  /* border: 1px solid rgb(28, 31, 30); */
+  transition: 0.2s;
+}  
+.btn-2 span:hover {
+  color: rgb(255,255,255);
+  transition: 0.2s 0.1s;
+}
+
+/* 6. hover-slide-down */
+.btn1.hover-slide-down::before {
+  top: 0; left: 0; right: 0; 
+  height: 0%; width: 100%;
+  
+}
+.btn1.hover-slide-down:hover::before {
+  height: 52%;
+}
+
+/* .pad{
+  
+  
+  margin: 1em;
+  padding-top: 1em;
+  height: 10px;
+}
+.pad:hover{
+
+  font-size: 17px;
+  color: green;
+  font-weight: bold;
+} */
+
+
+
+.btno {
+  position: relative;
+  display: inline-block;
+  width: auto; height: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0px 25px 15px;
+  min-width: 150px;
+}
+  .btno span {     
+    border: none;    
+    position: relative;
+    margin: 2px 0px;
+    height: 44px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 8px 20px;
+    transition: 1s;
+  }
+
+.btn-3 {
+  padding: 5px;
+}
+.btn-3 span {
+  color: rgb(255, 255, 255);
+  background-color: rgb(54, 56, 55);
+}
+.btn-3::before,
+.btn-3::after {
+  background: transparent;
+  z-index: 2;
+}
+
+/* 11. hover-border-1 */
+.btno.hover-border-1::before,
+.btno.hover-border-1::after {
+  width: 10%; height: 35%;
+  transition: 0.5s;
+}
+.btno.hover-border-1::before {
+  top: 0; left: 0;
+  border-left: 4px solid white;
+  border-top: 4px solid white;
+}
+.btno.hover-border-1::after {
+  bottom: 0; right: 0;
+  border-right: 4px solid white;
+  border-bottom: 4px solid white;
+}
+.btno.hover-border-1:hover::before,
+.btno.hover-border-1:hover::after {
+  width: 100%;
+  height: 98%;
+}
+
+.btno-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100px;
+  /* margin: 10px auto 335px; */
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 0px;
+  font-weight: 100;
+}
+p {
+  font-size: 18px;
+}
+.transition {
+  transition: .3s cubic-bezier(.3, 0, 0, 1.3)
+}
+.three .transition {
+  transition: .7s cubic-bezier(.3, 0, 0, 1.3)
+}
+.five .transition {
+  transition: .5s cubic-bezier(.3, 0, 0, 1.3)
+}
+
+
+.three {
+  list-style: none;
+  padding: 0;
+  margin: 100px 0;
+}
+.three > li {
+  background: #FFFFFF;
+  border: 1px solid rgba(150,150,150,0.29);
+  -moz-box-shadow: 0px 0px 18px 0px rgba(103,85,85,0.39);
+  box-shadow: 0px 0px 18px 0px rgba(103,85,85,0.39);
+  width: 250px;
+  height: 430px;
+  display: inline-block;
+  margin: 0 20px;
+  text-align: center;
+}
+.three > li img {
+  margin-top: 60px;
+}
+.three > li:hover img {
+  margin-top: 40px;
+}
+.three > li:hover {
+  -moz-box-shadow: 0px 0px 5px 0px rgba(103,85,85,0.25);
+  box-shadow: 0px 0px 5px 0px rgba(103,85,85,0.25);
+}
+.three > li:hover span {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  bottom: -400px;
+}
+.three > li:hover h3 {
+  color: rgba(255,255,255,1);
+  margin-top: 25px;
+}
+.three > li .wrapper {
+  overflow: hidden;
+  position: absolute;
+  width: 250px;
+  height: 430px;
+}
+.three > li span {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  background: #ECD16B;
+  display: block;
+  position: absolute;
+  bottom: 150px;
+  left: -125px;
+}
+.three > li span img {
+  margin-top: 10px;
+  width: 50px;
+}
+.three > li span:hover {
+  background: #ECD16B;
+}
+.three > li span i {
+  position: absolute;
+  bottom: -90px;
+  color: #ECD16B;
+  text-transform: uppercase;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border: 2px solid #ECD16B;
+  padding: 10px 30px;
+  font-style: normal;
+  display: inline-block;
+  left: 195px;
+}
+.three > li span .mamber-img {
+  width: 120px;
+  margin-top: 170px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.three > li span .mamber-img + h3 {
+  margin-top: 20px;
+}
+.three > li h3 {
+  margin-top: 40px;
+  color: rgba(255,255,255,1);
+}
+.three > li h3 em {
+  display: block;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.three .social {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+.three .social li {
+  opacity: 0;
+  display: inline-block;
+  padding: 5px;
+}
+.three > li:hover .social li {
+  opacity: 0.8;
+}
+.three .social li a {
+  cursor: pointer;
+  display: block;
+}
+.three .social li a:hover {
+  opacity: 0.5;
+}
+.three .social li img {
+  color: red;
+  width: 24px;
+}
+
+.ok{
+
+  height: 130px;
+  border-radius: 4em;
+}
+.soc{
+  color: red;
+}
+.soc:hover{
+
+  color: green;
+}
+
+
+
+
+.ap:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(2.5); /* Safari 3-8 */
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+
+
+
+.flip-box {
+  background-color:black;
+  width: 60%;
+  height:30em;
+  margin-top:5em;
+  box-shadow: 1px 1px 9px  9px rgb(185, 238, 146);
+  
+  
+  
+ 
+  perspective: 300px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  padding:5em 3em;
+  background-color: transparent;
+  color: white;
+  transform: rotateY(180deg);
+  box-shadow: 1px 1px 9px  9px skyblue;
+}
+
+.upd{
+  position: absolute;
+  margin: 8em 1em 1em -4.9em;
+}
+
+.que{
+   width:auto;
+   background-color:rgb(44, 38, 38);
+   padding:4em;
+}
+.box{
+
+}
+
+@media screen and(max-width:455px){
+
+  
+  .nav{ 
+    margin: 0%;
+    width: fit-content;
+    
+    
+    overflow-x: hidden;
+  }
+  Container{ 
+    padding: 0%;
+    margin: 0%;
+    height: 7em;
+    width: 49%;
+    bottom: 7%;
+    opacity: 0.5;
+    overflow-x: hidden;
+  }
+
+  
+}
+
+.tim{
+  display:flex;
+}
+.nmm{
+  
+  box-shadow: 11px 11px 25px  25px #9E9E9E;
+   padding:1em;
+}
+.fot{
+  height:999;
+  margin-top:17em;
+}
+
+@media screen and (max-width: 455px) {
+  .tn {
+    
+    display: none;
+    margin-right: none;
+  }
+  .pk{
+    width: 53px;
+    color: #af4261;
+    margin-right: none;
+  }
+  .flip-box{
+    width: 60%;
+    margin-left: 0em;
+    padding: 0%;
+    box-shadow: 1px 1px 5px  5px skyblue;
+    margin-right: none;
+    
+    
+
+  }
+  .flip-box-back{
+
+    width: 50%;
+    margin-right: none;
+   
+
+
+  }
+  .que{
+    width: 50%;
+    padding: 2em 0em;
+    margin-right: none;
+  }
+  body{
+    overflow-x: hidden;
+    margin-right: none;
+    padding: none;
+
+  }
+  .txt{
+    font-size: 70%;
+    text-align: center;
+    margin-right: none;
+  }
+  .ap{
+    position: relative;
+    width: 70%;
+    height: 70%;
+    margin-right: none;
+  }
+  .nm{
+    margin-right: none;
+    position: relative;
+    
+    box-shadow: 2px 4px 4px 2px black;
+    
+  }
+  .nam12{
+   
+    box-shadow:0px 2px 0px 0px #606063;
+   
+  }
+  .nmm{
+    margin-right: none;
+    box-shadow: none;
+    
+  }
+ .row{
+  margin-right: 0px;
+  padding-right: 0px;
+  width: auto;
+ }
+}
+
+@media screen and (max-width: 400px) {
+  .tn {
+    
+    display: none;
+    margin-right: none;
+  }
+  .pk{
+    width: 53px;
+    color: #af4261;
+    margin-right: none;
+  }
+  .flip-box{
+    width: 60%;
+    margin-left: 0em;
+    padding: 0%;
+    box-shadow: 1px 1px 5px  5px skyblue;
+    margin-right: none;
+    
+    
+
+  }
+  .flip-box-back{
+
+    width: 50%;
+    margin-right: none;
+   
+
+
+  }
+  .que{
+    width: 50%;
+    padding: 2em 0em;
+    margin-right: none;
+  }
+  body{
+    overflow-x: hidden;
+    margin-right: none;
+    padding: none;
+
+  }
+  .txt{
+    font-size: 70%;
+    text-align: center;
+    margin-right: none;
+  }
+  .ap{
+    position: relative;
+    width: 70%;
+    height: 70%;
+    margin-right: none;
+  }
+  .nm{
+    margin-right: none;
+    position: relative;
+    
+    box-shadow: 2px 4px 4px 2px black;
+    
+  }
+  .nam12{
+   
+    box-shadow:0px 2px 0px 0px #606063;
+   
+  }
+  .nmm{
+    margin-right: none;
+    box-shadow: none;
+    
+  }
+ .row{
+  margin-right: 0px;
+  padding-right: 0px;
+  width: auto;
+ }
+}
